@@ -1,0 +1,13 @@
+.ProgressBar {
+  width: 70px;
+  height: 5px;
+  background-color: #666;
+  margin: 7px;
+}
+
+.Bar {
+  width: 1%;
+  height: 5px;
+  background-color: rgba(255, 235, 59,1.0);
+  box-shadow: rgba(255, 235, 59,1.0) 0px 5px 10px;
+}

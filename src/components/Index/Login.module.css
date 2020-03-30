@@ -1,0 +1,87 @@
+.Login__Container {
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Title {
+    flex: 1;
+    font-size: 35px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Login {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Join {
+    width: 360px;
+    height: 180px;
+    margin-top: 30px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+
+.Join button {
+    display: inline-block;
+    border: none;
+    color: #fff;
+    padding: 15px 25px;
+    margin: 0 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 90px;
+    
+    font-weight: 300;
+    background-color: rgb(253, 216, 53);
+    transition: background-color 0.2s;
+}
+.Join button:focus { outline: none; }
+
+.Join button:hover {
+    background-color: rgb(255, 160, 0);
+}
+
+.Join input {
+    width: 290px;
+    font-size: 15px;
+    font-family: inherit;
+    color: #eee;
+    background-color: #666;
+    padding: 15px 25px;
+    border: 2px solid #666;
+    border-radius: 10px;
+    outline: none;
+}
+
+.Google {
+    color: rgb(255, 160, 0);
+    font-size: 14px;
+    font-weight: bold;
+
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Google:hover {
+    color: rgb(230, 74, 25);
+}
+
+.Error {
+    height: 40px;
+    margin-top: 20px;
+}

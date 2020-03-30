@@ -1,0 +1,68 @@
+.User {
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin: 2px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+    border: 5px solid rgb(245, 124, 0);
+    border-radius: 15px;
+    transition: background-color 0.2s;
+}
+
+.Selected {
+    background-color: rgb(255, 160, 0);
+}
+.User:hover {
+    background-color:rgb(251, 192, 45);
+}
+.User:hover .UserAvatar,
+.User:hover .Active {
+    background-color: rgb(255, 160, 0);
+}
+
+.UserAvatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: 2px solid rgb(251, 192, 45);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserName {
+    width: 126px;
+    margin: 0 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.Status {
+    height: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.Active {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(251, 192, 45);
+    border-radius: 20px;
+}
+
+.Time { font-size: 13px; }

@@ -1,0 +1,53 @@
+.Message__Container {
+    max-width: 100%;
+    color: #eee;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+.Message {
+    max-width: calc(100%);
+    display: inline-block;
+    padding: 5px 15px 6px 15px;
+    font-size: 20px;
+    background: rgb(251, 192, 45);
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+}
+.Msg__Name, .Msg__Time {
+    font-size: 11px;
+    font-weight: 600;
+}
+.Msg__Name {
+    margin-right: 5px;
+}
+.Msg__Time {
+    color: #999;
+}
+.Link {
+    height: 100px;
+    min-width: 100px;
+}
+.Link a {
+    height: 100%;
+    color: #eee;
+    appearance: none;
+    text-decoration: none;
+    font-size: 13px;
+    outline: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Preview {
+    flex: 1;
+    width: 80px;
+    margin: 5px 10px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}

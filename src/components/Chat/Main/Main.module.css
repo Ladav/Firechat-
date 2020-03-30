@@ -1,0 +1,38 @@
+.Main {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+    padding: 20px;
+    overflow-y: auto;
+/* 
+    z-index: 99; */
+}
+
+.LogoutBtn {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    z-index: 99;
+}
+
+.LogoutBtn button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #eee;
+    background-color: rgb(251, 192, 45);
+    border: 0px solid transparent;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.LogoutBtn button:hover {
+    background-color: rgb(255, 160, 0);
+}

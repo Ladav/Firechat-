@@ -1,0 +1,8 @@
+.Users {
+    width: 100%;
+    height: calc(100% - 70px);
+    padding: 15px 0;
+    overflow-y: auto;
+
+    list-style: none;
+}
