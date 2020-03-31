@@ -1,11 +1,11 @@
 .Message__Container {
-    max-width: 100%;
+    max-width: calc(100vw - 250px);
     color: #eee;
     margin-bottom: 16px;
     overflow: hidden;
 }
 .Message {
-    max-width: calc(100%);
+    max-width: calc(100vw - 450px);
     display: inline-block;
     padding: 5px 15px 6px 15px;
     font-size: 20px;
@@ -13,6 +13,11 @@
     border-radius: 15px;
     border-bottom-left-radius: 0px;
 }
+.Msg__Header, .Msg__Text {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
 .Msg__Name, .Msg__Time {
     font-size: 11px;
     font-weight: 600;
